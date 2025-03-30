@@ -49,7 +49,9 @@ print(f"Variance is : {var}")
 
 OUTPUT:
 
+
 ![image](https://github.com/user-attachments/assets/7745be2f-903f-49d9-bf0b-5752a86786f4)
+
 
 RESULT: For the given probabilities 0.125,0.0625,0.25,0.0625,0.125,0.125,0.25
 
