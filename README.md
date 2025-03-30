@@ -50,9 +50,7 @@ print(f"Variance is : {var}")
 
 OUTPUT:
 
-
 ![image](https://github.com/user-attachments/assets/7745be2f-903f-49d9-bf0b-5752a86786f4)
-
 
 RESULT:
 
