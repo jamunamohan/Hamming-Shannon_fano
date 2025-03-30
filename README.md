@@ -1,12 +1,23 @@
-Huffman-Shannon_fano
+Exp-8: Huffman-Shannon_fano
+Name: Jamuna M
+Reg No.: 212223060097
 
-Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} for its output. Apply the Huffman and Shannon-Fano to this source. Show that draw the tree diagram, the average code word length, Entropy, Variance, Redundancy, Efficiency.
+Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} for its output.
+Apply the Huffman and Shannon-Fano to this source. Show that draw the tree diagram, the average code word length, Entropy, Variance, Redundancy, Efficiency.
 
-AIM: To compute the Average Codeword Length, Entropy, Efficiency, Redundancy, and Variance for a discrete memoryless source using Huffman and Shannon-Fano coding based on the given probabilities and codeword lengths.
+Aim :
 
-TOOLS REQUIRED: Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
+To compute the Average Codeword Length, Entropy, Efficiency, Redundancy, and Variance for a discrete memoryless source using Huffman and Shannon-Fano coding based on the given probabilities and codeword lengths.
 
-PROGRAM:
+Tools Required :
+
+Python IDE with
+
+-> numpy library
+
+-> math library
+
+Program :
 
 import numpy as np
 import math 
@@ -47,14 +58,25 @@ print(f"Efficiency is : {eff}")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 
+Calculation :
 
-OUTPUT:
+![image](https://github.com/user-attachments/assets/9e1f0d45-2e5f-44d7-88ae-3ceb35537ef0)
+![image](https://github.com/user-attachments/assets/78641127-62e1-40de-8ce8-4a675858099a)
+![image](https://github.com/user-attachments/assets/68e1ce08-8cb2-4adb-a4d8-e3e9a3c1392a)
+![image](https://github.com/user-attachments/assets/0f310b8c-ec09-47b2-9046-a881a034ef01)
+![image](https://github.com/user-attachments/assets/0b7440b5-4f02-4a48-8570-84c828171e8d)
 
-![image](https://github.com/user-attachments/assets/7745be2f-903f-49d9-bf0b-5752a86786f4)
+Results :
 
-RESULT:
+The obtained result are
 
-For the given probabilities 0.125,0.0625,0.25,0.0625,0.125,0.125,0.25
+Average Codeword Length is : 2.625
 
-Average Codeword Length is : 2.625 Entropy is : 2.625 Efficiency is : 100.0 % Redudancy is : 0.0 Variance is : 0.484
+Entropy is : 2.625
+
+Efficiency is : 1.0
+
+Redudancy is : 0.0
+
+Variance is : 0.484
 
